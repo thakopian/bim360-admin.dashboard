@@ -15,8 +15,7 @@
             "env":{
                 "FORGE_CLIENT_ID":"R68BdMV6pRdHlOHLy9SA4kcbJhcVCCxO",
                 "FORGE_CLIENT_SECRET":"WqAMnrDAHlCnpAhN",
-                "FORGE_CALLBACK_URL":"http://localhost:3000/api/forge/callback/oauth"
-            }
+                "FORGE_CALLBACK_URL":"https://forgetv.herokuapp.com/api/forge/callback/oauth"
         }
     ]
 }
