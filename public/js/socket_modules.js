@@ -5,7 +5,7 @@ const SocketEnum = {
   EXTRACT_ALL_PROJECTS_USERS_DONE:'extract users of all project done' 
 };  
 
-socketio = io('http://localhost:3000');
+socketio = io('https://forgetv.herokuapp.com/api/forge/callback/oauth');
 socketio.on(SocketEnum.DEMO_TOPIC, async (d) => {
   const res = JSON.parse(d)  
   const data  = res.data
