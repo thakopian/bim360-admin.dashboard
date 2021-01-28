@@ -9,6 +9,7 @@
   "author": "Xiaodong Liang",
   "license": "MIT",
   "dependencies": {
+    "chartjs-plugin-datalabels": "^0.7.0",
     "cookie-parser": "^1.4.4",
     "cookie-session": "^2.0.0-beta.3",
     "es6-promise-pool": "^2.5.0",
